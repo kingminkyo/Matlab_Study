@@ -1,5 +1,5 @@
 % sobj.m : 속이 빈 3차원 객체를 생성
-
+clear, clc all
 
 N= 10;
 z = linspace(-5, 5, N)';
