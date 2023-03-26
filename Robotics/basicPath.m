@@ -1,4 +1,4 @@
-clc, clear 
+clc, clear all
 load exampleMaps.mat
 %whos *Map*
 map = binaryOccupancyMap(simpleMap,2);

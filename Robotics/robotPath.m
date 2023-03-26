@@ -21,7 +21,7 @@ ylim([0 13])
 
 controller = controllerPurePursuit;
 controller.Waypoints = path;
-controller.DesiredLinearVelocity = 5;
+controller.DesiredLinearVelocity = 0.6;
 controller.LookaheadDistance = 0.3;
 goalRadius = 0.1;
 distanceToGoal = norm(robotInitialLocation - robotGoal);
